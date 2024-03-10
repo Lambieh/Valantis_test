@@ -32,7 +32,7 @@ function App() {
       });
       return await response.json();
     } catch (error) {
-      handleProducts();
+      // handleProducts();
     }
   };
 
@@ -53,7 +53,7 @@ function App() {
       });
       return await response.json();
     } catch (error) {
-      handleProducts();
+      // handleProducts();
     }
   };
 
