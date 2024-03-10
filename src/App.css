@@ -1,0 +1,78 @@
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.button_style {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.pos_button {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.page_sort {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.left {
+  margin-right: 650px;
+}
+.right {
+  margin-left: 650px;
+}
+
+.input_style {
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #999;
+  background: #eee;
+  border: none;
+  outline: none;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+}
+table {
+  table-layout: fixed;
+  width: 50%;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}

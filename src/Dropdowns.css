@@ -1,0 +1,16 @@
+.button_general_style {
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #999;
+  background: #eee;
+  border: none;
+  outline: none;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button_general_style:hover {
+  background: #dfdfdf;
+}
