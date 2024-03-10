@@ -22,7 +22,7 @@ function App() {
 
   const getProductIds = async (params) => {
     try {
-      const response = await fetch("http://api.valantis.store:40000/", {
+      const response = await fetch("https://api.valantis.store:41000/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -38,7 +38,7 @@ function App() {
 
   const getProducts = async (ids) => {
     try {
-      const response = await fetch("http://api.valantis.store:40000/", {
+      const response = await fetch("https://api.valantis.store:41000/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
