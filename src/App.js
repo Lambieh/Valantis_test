@@ -17,7 +17,7 @@ function App() {
 
   let word_pas = "Valantis";
   let time = new Date().toISOString().slice(0, 10).split("-").join("");
-  const authorizationString = `$  {word_pas}_${time}`;
+  const authorizationString = `${word_pas}_${time}`;
   const password = md5(authorizationString).toString();
 
   const getProductIds = async (params) => {
